@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-z7!jn=yq97f-nw0gqbh8uw$ab&$su%9@igoo4&r_gh8fc_he+y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "urban-guide-pjjxqgvqxvqq3497-8000.app.github.dev",
+]
 
 
 # Application definition
@@ -146,5 +150,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_HEADERS = ["*"]
-CORS_ALLOW_METHODS = ["*"]
+CORS_ALLOW_HEADERS = ['*']
+CORS_ALLOW_METHODS = ['*']
